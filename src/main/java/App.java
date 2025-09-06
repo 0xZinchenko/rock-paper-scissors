@@ -1,6 +1,21 @@
 import java.util.Random;
 import java.util.Scanner;
-
+/**
+ * Rock-Paper-Scissors Console Game
+ *
+ * A simple Java console application where the player competes against
+ * the computer in the classic Rock-Paper-Scissors game.
+ *
+ * Features:
+ * - User inputs their move: rock, paper, or scissors.
+ * - Validates user input.
+ * - Computer randomly selects its move.
+ * - Determines and displays the game outcome.
+ * - Allows repeated play until user chooses to stop.
+ *
+ * Author: [Your Name]
+ * Date: [Optional]
+ */
 public class App {
     public static void main(String[] args) {
 
