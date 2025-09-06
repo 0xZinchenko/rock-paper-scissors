@@ -21,6 +21,19 @@ public class App {
         computerChoice = choices[random.nextInt(3)];
         System.out.println("Computer choice: " + computerChoice);
 
+        if (playerChoice.equals(computerChoice)) {
+            System.out.println("It's a tie!");
+
+        } else if ((playerChoice.equals("rock") && computerChoice.equals("scissors")) ||
+                (playerChoice.equals("paper") && computerChoice.equals("rock")) ||
+                (playerChoice.equals("scissors") && computerChoice.equals("paper"))) {
+
+            System.out.println("You win!");
+        } else {
+
+            System.out.println("You lose!");
+        }
+
 
         scanner.close();
     }
