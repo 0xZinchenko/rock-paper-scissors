@@ -18,6 +18,9 @@ public class App {
             System.out.println("Invalid Choice");
         }
 
+        computerChoice = choices[random.nextInt(3)];
+        System.out.println("Computer choice: " + computerChoice);
+
 
         scanner.close();
     }
